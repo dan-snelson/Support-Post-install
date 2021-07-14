@@ -9,5 +9,5 @@ On the off-chance this may help other Jamf Pro admins, we’re currently testing
 - Parameter 5: Reverse Domain Name Notation (i.e., "org.churchofjesuschrist")
 - Parameter 6: Configuration Files to Reset (i.e., None (blank) | All | LaunchAgent)
 
-![Jamf Pro Script Parameter Labels](images/Screen%20Shot%202021-03-22%20at%2012.55.06%20PM.png)
+![Jamf Pro Script Parameter Labels](images/Screen%20Shot%202021-07-14%20at%204.59.54%20AM.png)
 
