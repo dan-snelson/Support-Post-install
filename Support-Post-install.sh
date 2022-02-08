@@ -17,6 +17,9 @@
 #	Version 0.0.2, 14-Jul-2021, Dan K. Snelson (@dan-snelson)
 #		Leveraged Jamf Pro Self Service "brandingimage.png" for custom logo
 #
+#	Version 0.0.3, 08-Feb-2022, Dan K. Snelson (@dan-snelson)
+#		Changed shebang to `#!/bin/sh` (which it should've been originally)
+#
 ####################################################################################################
 
 
@@ -27,7 +30,7 @@
 #
 ####################################################################################################
 
-scriptVersion="0.0.2"
+scriptVersion="0.0.3"
 scriptResult=""
 loggedInUser=$( /bin/echo "show State:/Users/ConsoleUser" | /usr/sbin/scutil | /usr/bin/awk '/Name :/ { print $3 }' )
 loggedInUserID=$( /usr/bin/id -u "${loggedInUser}" )
